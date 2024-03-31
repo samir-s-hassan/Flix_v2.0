@@ -9,6 +9,13 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var overviewLabel: UILabel!
+    @IBOutlet weak var voteLabel: UILabel!
+    @IBOutlet weak var releaseLabel: UILabel!
+    @IBOutlet weak var backdropImageView: UIImageView!
+    @IBOutlet weak var posterImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
